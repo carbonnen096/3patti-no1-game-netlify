@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Patti No1 APK - Pakistan's Leading Real-Money Card & Casino Gaming App in 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1d3557;
+            --secondary: #e63946;
+            --accent: #457b9d;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --success: #2a9d8f;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: var(--dark);
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #457b9d 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(255,255,255,0.05)" d="M0,0 L100,0 L100,100 Q50,80 0,100 Z"></path></svg>');
+            background-size: 100% 100%;
+            opacity: 0.3;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+            position: relative;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.2;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 30px;
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin-top: 50px;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--secondary);
+            border-radius: 3px;
+        }
+        
+        p {
+            font-size: 1.05rem;
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+        }
+        
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(to right, rgba(233, 236, 239, 0.8) 0%, rgba(233, 236, 239, 1) 100%);
+            border-left: 6px solid var(--secondary);
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .highlight-box strong {
+            color: var(--primary);
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        li::before {
+            content: "•";
+            color: var(--secondary);
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -3px;
+        }
+        
+        .game-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .game-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .game-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .game-item i {
+            display: block;
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
+        }
+        
+        .cta-button:hover {
+            background: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(29, 53, 87, 0.3);
+            text-decoration: none;
+        }
+        
+        footer {
+            background: linear-gradient(135deg, var(--primary) 0%, #1b3a5e 100%);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 80px;
+        }
+        
+        footer p {
+            color: rgba(255,255,255,0.8);
+            margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 0 20px;
+            }
+            
+            .game-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>3Patti No1 APK: Pakistan's Premier Real-Money Gaming Experience in 2025</h1>
+</header>
+
+<div class="container">
+
+    <p>
+        In 2025, Pakistan's digital gaming revolution has found its champion. The <a href="https://3patti-no1.com/" target="_blank"><strong>3 patti no 1 apk</strong></a> 
+        stands tall as the nation's favorite real-money gaming platform, blending traditional card game heritage with cutting-edge mobile technology. 
+        This isn't just an app—it's Pakistan's digital casino revolution in your pocket.
+    </p>
+
+    <h2>Pakistan's Gaming Revolution</h2>
+    <p>
+        From humble beginnings as a Teen Patti simulator to becoming Pakistan's most comprehensive mobile casino, 3Patti No1 has redefined mobile entertainment. 
+        Experience the thrill of authentic casino action wherever you are.
+    </p>
+    
+    <div class="game-list">
+        <div class="game-item">
+            <i>🎴</i>
+            <strong>Teen Patti Classic</strong>
+        </div>
+        <div class="game-item">
+            <i>🃏</i>
+            <strong>Rummy</strong>
+        </div>
+        <div class="game-item">
+            <i>🐉</i>
+            <strong>Dragon vs. Tiger</strong>
+        </div>
+        <div class="game-item">
+            <i>🎲</i>
+            <strong>Andar Bahar</strong>
+        </div>
+        <div class="game-item">
+            <i>♠️</i>
+            <strong>Poker</strong>
+        </div>
+        <div class="game-item">
+            <i>🎰</i>
+            <strong>Slot Machines</strong>
+        </div>
+        <div class="game-item">
+            <i>👨‍💼</i>
+            <strong>Live Dealer Tables</strong>
+        </div>
+    </div>
+
+    <h2>Real Money, Real Excitement</h2>
+    <p>
+        The heart of 3Patti No1 beats with real-money gameplay. Experience the adrenaline rush of playing with actual stakes and the satisfaction of instant withdrawals.
+    </p>
+
+    <div class="highlight-box">
+        <strong>Why Players Choose 3Patti No1:</strong>
+        <ul>
+            <li><strong>Bank-Grade Security:</strong> Encrypted transactions via JazzCash, Easypaisa & direct bank transfer</li>
+            <li><strong>Lightning Payouts:</strong> Withdrawals processed in minutes, not days</li>
+            <li><strong>Provably Fair:</strong> Certified RNG (Random Number Generator) ensures every game is fair</li>
+            <li><strong>24/7 Support:</strong> Dedicated Pakistani support team always available</li>
+        </ul>
+    </div>
+
+    <a href="https://3patti-no1.com/" class="cta-button" target="_blank">Download Now & Get ₹500 Free</a>
+
+    <h2>Made for Pakistan, Loved by Pakistanis</h2>
+    <p>
+        This isn't a generic international app—it's crafted specifically for Pakistani players:
+    </p>
+    <ul>
+        <li>Full Urdu interface with Punjabi and Sindhi options</li>
+        <li>Special Eid, Ramadan, and Independence Day tournaments</li>
+        <li>Local payment methods with rupee-denominated accounts</li>
+        <li>Server locations in Pakistan for lag-free gameplay</li>
+    </ul>
+
+    <h2>Features That Keep You Playing</h2>
+    <p>
+        3Patti No1 goes beyond basic gameplay with social and competitive features:
+    </p>
+    <ul>
+        <li>Private tables with friends and family</li>
+        <li>Weekly tournaments with massive prize pools</li>
+        <li>Global leaderboards to track your ranking</li>
+        <li>In-game chat, emojis, and virtual gifts</li>
+        <li>Player statistics and game history</li>
+    </ul>
+
+    <h2>Cutting-Edge Technology</h2>
+    <p>
+        Engineered for performance across all Pakistani networks and devices:
+    </p>
+    <ul>
+        <li>Lightweight APK (under 15MB)</li>
+        <li>Optimized for 2G/3G networks</li>
+        <li>Battery-efficient design</li>
+        <li>Regular updates with new features</li>
+    </ul>
+
+    <h2>Responsible Gaming</h2>
+    <p>
+        As Pakistan's gaming industry matures, 3Patti No1 leads in player protection:
+    </p>
+    <ul>
+        <li>Strict 18+ age verification</li>
+        <li>Self-exclusion and deposit limit tools</li>
+        <li>SSL encrypted financial transactions</li>
+        <li>Transparent terms and conditions</li>
+    </ul>
+
+    <h2>The Future of Gaming in Pakistan</h2>
+    <p>
+        Coming soon to elevate your experience further:
+    </p>
+    <ul>
+        <li>Web platform for desktop play</li>
+        <li>Cryptocurrency deposit options</li>
+        <li>National eSports tournaments</li>
+        <li>Virtual reality casino rooms</li>
+    </ul>
+
+    <h2>Join the Revolution</h2>
+    <p>
+        With over 5 million downloads and counting, 3Patti No1 APK isn't just following trends—it's setting them. 
+        Experience why Pakistan has made it the #1 choice for real-money mobile gaming in 2025.
+    </p>
+    
+    <a href="https://3patti-no1.com/" class="cta-button" target="_blank">Start Playing Now</a>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 3Patti No1 – Pakistan's Premier Gaming Platform. All Rights Reserved.</p>
+    <p>Play Responsibly. Must be 18+ to participate.</p>
+</footer>
+
+</body>
+</html>
